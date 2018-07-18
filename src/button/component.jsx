@@ -17,13 +17,13 @@ export let Button = create({
     url: {
         test:       '/base/test/windows/button/index.htm',
         local:      'http://localhost:8000/button',
-        production: 'https://brainblocks.io/button'
+        production: 'https://api.brainblocks.io/button'
     },
 
     domain: {
         test:       'mock://www.my-site.com',
         local:      'http://localhost:8000',
-        production: 'https://brainblocks.io'
+        production: 'https://api.brainblocks.io'
     },
 
     dimensions: {
